@@ -4,7 +4,9 @@ import Menu from './components/Menu'
 
 function App() {
   return (
-    <Menu />
+    <div class="w-screen">
+      <Menu />
+    </div>
   )
 }
 
