@@ -3,7 +3,7 @@ import AboutMeImg from "../assets/Pawel-about-me.jpg"
 
 function AboutMe () {
     return (
-        <div id="AboutMe" className="w-screen h-full scroll-smooth bg-slate-950 gap-0 columns-2">
+        <div id="AboutMe" className="w-screen h-full bg-slate-950 gap-0 columns-2">
             <div className="h-full w-full flex items-center justify-center">
                 <img className="h-3/6 w-auto rounded-sm" src={AboutMeImg} />
             </div>
