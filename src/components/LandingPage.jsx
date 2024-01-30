@@ -11,8 +11,8 @@ function LandingPage () {
             </div>
             <div className="h-4/5 w-full gap-0 columns-2">
                 <div className="h-full w-full flex flex-col justify-center items-start pl-48">
-                    <text className="text-7xl font-serif text-slate-300">Alicia Alves</text>
-                    <text className="text-xl font-serif text-slate-300">Psicóloga - CRP 123456</text>
+                    <p className="text-7xl font-serif text-slate-300">Alicia Alves</p>
+                    <p className="text-xl font-serif text-slate-300">Psicóloga - CRP 123456</p>
                 </div>
                 <div className="h-4/5 w-fullm flex items-center justify-start pl-64">
                     <img className="w-96 h-96 rounded-full" src={Avatar}></img>
