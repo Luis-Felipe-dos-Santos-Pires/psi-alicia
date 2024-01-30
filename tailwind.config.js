@@ -8,6 +8,10 @@ export default {
     extend: {
       backgroundImage: {
         'landing-page': "url(/src/assets/Pawel-Dark.jpg)"
+      },
+      colors: {
+        'transparent-black-25': "rgba(0,0,0,0.25)",
+        'transparent-black-50': "rgba(0,0,0,0.50)"
       }
     },
   },
