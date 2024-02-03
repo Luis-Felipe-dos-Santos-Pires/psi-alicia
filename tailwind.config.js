@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'landing-page': "url(/src/assets/Pawel-Dark.jpg)"
+        'landing-page': "url(/src/assets/pawel12.jpg)"
       },
       colors: {
         'transparent-black-25': "rgba(0,0,0,0.25)",
