@@ -1,7 +1,7 @@
 import { useState } from "react";
 import AboutMeImg from "../assets/Pawel-about-me.jpg"
 
-function AboutMe ({Id, BgColor, Image, ImageStyle, Title, TitleStyle, Text, TextStyle, TextOrder}) {
+function DefaultPage ({Id, BgColor, Image, ImageStyle, Title, TitleStyle, Text, TextStyle, TextOrder}) {
     return (
         <div id={Id} className={`w-screen h-full ${BgColor} gap-0 flex`}>
             <div className="flex-1 flex items-center justify-center">
@@ -17,4 +17,4 @@ function AboutMe ({Id, BgColor, Image, ImageStyle, Title, TitleStyle, Text, Text
     )
 }
 
-export default AboutMe
+export default DefaultPage

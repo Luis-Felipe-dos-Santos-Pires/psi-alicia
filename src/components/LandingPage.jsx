@@ -5,7 +5,7 @@ import DefaultPage from './DefaultPage'
 
 function LandingPage () {
     return (
-        <div id="LandingPage" className="w-screen h-full bg-landing-page bg-cover bg-no-repeat bg-fixed bg-center gap-0">
+        <div id="LandingPage" className="w-screen h-full bg-landing-page bg-cover bg-no-repeat bg-fixed bg-center gap-0 z-50">
             <div className="h-1/5 gap-0 columns-2">
                 <div className="h-full w-full"></div>
                 <Menu />
